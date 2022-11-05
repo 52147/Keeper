@@ -93,10 +93,10 @@ npm install @mui/icons-material
 ## Render the textarea when we click it
 
 - Before
-![image](https://user-images.githubusercontent.com/79159894/200115152-b668d703-f557-4bb7-930b-921bf3fe7780.png)
+- ![image](https://user-images.githubusercontent.com/79159894/200115152-b668d703-f557-4bb7-930b-921bf3fe7780.png)
 - After click the text area -> render title, content(become 3 rows), FAB(floating action button)
 
-![image](https://user-images.githubusercontent.com/79159894/200115176-0abefad4-b6f5-4994-8dd6-24310468ba66.png)
+- ![image](https://user-images.githubusercontent.com/79159894/200115176-0abefad4-b6f5-4994-8dd6-24310468ba66.png)
 
 - Render component conditionally
 - Render the title, content and fab when user click it
@@ -173,6 +173,19 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
   padding: 0 16px;
 }
+```
+
+## Error
+```
+Error: Parse Error: <link font-family: "Montserrat", sans-serif;
+    href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
+    rel="stylesheet" />
+```   
+### Solution
+- Delete `"Montserrat", sans-serif;`
+- Become ->
+```
+<link href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet" />
 ```
 ### Reference
 https://www.transparenttextures.com/
