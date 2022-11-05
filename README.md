@@ -73,7 +73,9 @@ git commit -m "update"
 git push
 ```
 depoly the react
+```
 npm run deploy
+```
 ## Add the material-ui dependency
 - Material UI: Material UI is an open-source React component library that implements Google's Material Design.
 - Run Default installation and material-ui/icon
