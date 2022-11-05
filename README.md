@@ -174,7 +174,8 @@ body {
   padding: 0 16px;
 }
 ```
-
+### Reference
+https://www.transparenttextures.com/
 ## Error
 - After run `npm run deploy`
 ```
@@ -188,5 +189,4 @@ Error: Parse Error: <link font-family: "Montserrat", sans-serif;
 ```
 <link href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet" />
 ```
-### Reference
-https://www.transparenttextures.com/
+
