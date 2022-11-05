@@ -65,6 +65,15 @@ npm install @mui/icons-material
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
 ```
+
+- update the github repository
+```
+git add *
+git commit -m "update"
+git push
+```
+depoly the react
+npm run deploy
 ## Add the material-ui dependency
 - Material UI: Material UI is an open-source React component library that implements Google's Material Design.
 - Run Default installation and material-ui/icon
