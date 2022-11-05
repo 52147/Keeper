@@ -4,13 +4,13 @@ React project to store user notes.
 
 ## Set up local environement for react
 
-### check node version
+### Check node version
 ```
 node --version
 ```
-### update node to the latest version
+### Update node to the latest version
 
-### install react app
+### Install react app
 ```
 npx create-react-app my-app
 ```
@@ -28,12 +28,12 @@ We can see my-app in the browser. http://localhost:3000/
 ## Deploy react on branch github page 
 
 
-- add gitignore file
+- Add gitignore file
 ```
 touch .gitignore
 ```
-- add `node_modules/` in gitignore file
-- push the file to github
+- Add `node_modules/` in gitignore file
+- Push the file to github
 ```
 git init
 git add *
@@ -42,7 +42,7 @@ git branch -M main
 git remote add origin https://github.com/52147/Keeper.git
 git push -u origin main
 ```
-- install npm package
+- Install npm package
 ```
 npm install -g yarn
 ```
@@ -50,7 +50,7 @@ npm install -g yarn
 ```
 yarn add -D gh-pages
 ```
-- install material-ui dependency
+- Install material-ui dependency
 ```
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/icons-material
@@ -66,13 +66,13 @@ npm install @mui/icons-material
 "deploy": "gh-pages -d build",
 ```
 
-- update the github repository
+- Update the github repository
 ```
 git add *
 git commit -m "update"
 git push
 ```
-depoly the react
+Depoly the react
 ```
 npm run deploy
 ```
@@ -186,7 +186,7 @@ Error: Parse Error: <link font-family: "Montserrat", sans-serif;
 ### Solution
 - Delete `"Montserrat", sans-serif;`
 - Become ->
-```
+```html
 <link href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet" />
 ```
 
