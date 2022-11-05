@@ -60,7 +60,7 @@ npm install @mui/icons-material
 ```
 "homepage":"https://52147.github.io/Keeper/"
 ```
-- predeploy and deploy in scripts
+- Add predeploy and deploy in scripts
 ```
 "predeploy": "npm run build",
 "deploy": "gh-pages -d build",
@@ -72,7 +72,7 @@ git add *
 git commit -m "update"
 git push
 ```
-Depoly the react
+- Depoly the react
 ```
 npm run deploy
 ```
