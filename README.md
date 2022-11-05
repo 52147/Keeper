@@ -25,6 +25,46 @@ npm-start
 Start the development server.
 We can see my-app in the browser. http://localhost:3000/
 
+## Deploy react on branch github page 
+
+
+- add gitignore file
+```
+touch .gitignore
+```
+- add `node_modules/` in gitignore file
+- push the file to github
+```
+git init
+git add *
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/52147/Keeper.git
+git push -u origin main
+```
+- install npm package
+```
+npm install -g yarn
+```
+- Install github page packages in your devDependencies
+```
+yarn add -D gh-pages
+```
+- install material-ui dependency
+```
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+```
+
+- Add url link in json file
+```
+"homepage":"https://52147.github.io/Keeper/"
+```
+- predeploy and deploy in scripts
+```
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",
+```
 ## Add the material-ui dependency
 - Material UI: Material UI is an open-source React component library that implements Google's Material Design.
 - Run Default installation and material-ui/icon
