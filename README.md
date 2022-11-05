@@ -131,8 +131,8 @@ npm install @mui/icons-material
           )
         }
 ```
-- When user click the textarea, call the expand() and set isExpanded to true
-- Row become true become 3 line when isExpanded is true
+- When user click the textarea, call the `expand()` and set `isExpanded` to true
+- `rows` become 3 line when `isExpanded` is true
 ```javascript
         <textarea
           name="content"
