@@ -92,9 +92,9 @@ npm install @mui/icons-material
 
 ## Render the textarea when we click it
 
-- Before
+- Before user click the text area
 - ![image](https://user-images.githubusercontent.com/79159894/200115152-b668d703-f557-4bb7-930b-921bf3fe7780.png)
-- After click the text area -> render title, content(become 3 rows), FAB(floating action button)
+- After user click the text area : `render title, content(become 3 rows), FAB(floating action button)`
 
 - ![image](https://user-images.githubusercontent.com/79159894/200115176-0abefad4-b6f5-4994-8dd6-24310468ba66.png)
 
