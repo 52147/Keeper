@@ -176,6 +176,7 @@ body {
 ```
 
 ## Error
+- After run `npm run deploy`
 ```
 Error: Parse Error: <link font-family: "Montserrat", sans-serif;
     href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap"
